@@ -1,0 +1,29 @@
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Start test public:1:is_present.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Test public:1:is_present is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: End test public:1:is_present.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Start test public:3:uniq.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Test public:3:uniq is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: End test public:3:uniq.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Start test public:5:ap.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Test public:5:ap is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: End test public:5:ap.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Start test public:7:int_tree_insert_and_mem.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Test public:7:int_tree_insert_and_mem is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: End test public:7:int_tree_insert_and_mem.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Start test public:9:tree_map_put_and_get.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Test public:9:tree_map_put_and_get exited with an error.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Invalid_argument("map_put") in test public:9:tree_map_put_and_get.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Raised at Stdlib.invalid_arg in file "stdlib.ml", line 30, characters 20-45
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Called from P2b__Data.map_put in file "src/data.ml", line 75, characters 16-37
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Called from Dune__exe__Public.public_tree_map_put_and_get in file "test/public/public.ml", line 123, characters 11-27
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: 
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: End test public:9:tree_map_put_and_get.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: Start test public:11:scopes.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Test public:11:scopes exited with an error.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Failure("unimplemented") in test public:11:scopes.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Called from Dune__exe__Public.public_scopes in file "test/public/public.ml", line 143, characters 10-32
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 E: 
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#02 I: End test public:11:scopes.

@@ -1,0 +1,23 @@
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Start test public:0:is_elem.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Test public:0:is_elem is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: End test public:0:is_elem.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Start test public:2:count_occ.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Test public:2:count_occ is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: End test public:2:count_occ.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Start test public:4:assoc_list.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Test public:4:assoc_list is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: End test public:4:assoc_list.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Start test public:6:insert_and_max.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Test public:6:insert_and_max is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: End test public:6:insert_and_max.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Start test public:8:int_tree_insert_and_size.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Test public:8:int_tree_insert_and_size is successful.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: End test public:8:int_tree_insert_and_size.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: Start test public:10:var.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 E: Test public:10:var exited with an error.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 E: Failure("unimplemented") in test public:10:var.
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 E: Called from Dune__exe__Public.public_var in file "test/public/public.ml", line 133, characters 10-32
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 E: 
+2022-03-01T14:58:30+00:00 wireless-10-104-148-178.umd.edu#01 I: End test public:10:var.

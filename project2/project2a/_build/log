@@ -1,0 +1,130 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/sohamdigambar/cmsc330spring22/project2a
+# Auto-detected concurrency: 8
+$ /usr/local/bin/ocamlc.opt -config > /var/folders/pd/84v9vc0j2kd0gw735l3j4qsh0000gn/T/dune_e98003_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/sohamdigambar/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/usr/local/bin"
+#  ; ocaml = Ok External "/Users/sohamdigambar/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/usr/local/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/usr/local/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/usr/local/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/usr/local/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/sohamdigambar/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/usr/local/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/sohamdigambar/cmsc330spring22/project2a"
+#        ; "INSIDE_DUNE" :
+#            "/Users/sohamdigambar/cmsc330spring22/project2a/_build/default"
+#        ; "MANPATH" :
+#            "/Users/sohamdigambar/cmsc330spring22/project2a/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/sohamdigambar/cmsc330spring22/project2a/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/sohamdigambar/cmsc330spring22/project2a/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/sohamdigambar/cmsc330spring22/project2a/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/sohamdigambar/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default = "/usr/local/lib/ocaml"
+#      ; standard_library = "/usr/local/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "clang"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "clang"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "clang"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin21.1.0"
+#      ; target = "x86_64-apple-darwin21.1.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -bin-annot -I src/.basics.objs/byte -no-alias-deps -opaque -o src/.basics.objs/byte/basics.cmi -c -intf src/basics.mli)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -bin-annot -I src/.basics.objs/byte -intf-suffix .ml -no-alias-deps -opaque -o src/.basics.objs/byte/basics.cmo -c -impl src/basics.ml)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -bin-annot -I test/student/.student.eobjs/byte -I /Users/sohamdigambar/.opam/default/lib/oUnit -I /Users/sohamdigambar/.opam/default/lib/ounit2 -I /Users/sohamdigambar/.opam/default/lib/ounit2/advanced -I /Users/sohamdigambar/.opam/default/lib/seq -I /Users/sohamdigambar/.opam/default/lib/stdlib-shims -I src/.basics.objs/byte -no-alias-deps -opaque -o test/student/.student.eobjs/byte/dune__exe__Student.cmo -c -impl test/student/student.ml)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -a -o src/basics.cma src/.basics.objs/byte/basics.cmo)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/public/.public.eobjs/byte -I /Users/sohamdigambar/.opam/default/lib/oUnit -I /Users/sohamdigambar/.opam/default/lib/ounit2 -I /Users/sohamdigambar/.opam/default/lib/ounit2/advanced -I /Users/sohamdigambar/.opam/default/lib/seq -I /Users/sohamdigambar/.opam/default/lib/stdlib-shims -I src/.basics.objs/byte -no-alias-deps -opaque -o test/public/.public.eobjs/byte/dune__exe__Public.cmo -c -impl test/public/public.ml)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/property-based-test/.pbt.eobjs/byte -I /Users/sohamdigambar/.opam/default/lib/oUnit -I /Users/sohamdigambar/.opam/default/lib/ounit2 -I /Users/sohamdigambar/.opam/default/lib/ounit2/advanced -I /Users/sohamdigambar/.opam/default/lib/qcheck -I /Users/sohamdigambar/.opam/default/lib/qcheck-core -I /Users/sohamdigambar/.opam/default/lib/qcheck-core/runner -I /Users/sohamdigambar/.opam/default/lib/qcheck-ounit -I /Users/sohamdigambar/.opam/default/lib/seq -I /Users/sohamdigambar/.opam/default/lib/stdlib-shims -I src/.basics.objs/byte -no-alias-deps -opaque -o test/property-based-test/.pbt.eobjs/byte/dune__exe__Pbt.cmo -c -impl test/property-based-test/pbt.ml)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -I src/.basics.objs/byte -I src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o src/.basics.objs/native/basics.cmx -c -impl src/basics.ml)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -I test/student/.student.eobjs/byte -I test/student/.student.eobjs/native -I /Users/sohamdigambar/.opam/default/lib/oUnit -I /Users/sohamdigambar/.opam/default/lib/ounit2 -I /Users/sohamdigambar/.opam/default/lib/ounit2/advanced -I /Users/sohamdigambar/.opam/default/lib/seq -I /Users/sohamdigambar/.opam/default/lib/stdlib-shims -I src/.basics.objs/byte -I src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o test/student/.student.eobjs/native/dune__exe__Student.cmx -c -impl test/student/student.ml)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -o test/student/student.bc src/basics.cma /usr/local/lib/ocaml/unix.cma /Users/sohamdigambar/.opam/default/lib/stdlib-shims/stdlib_shims.cma /Users/sohamdigambar/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cma /Users/sohamdigambar/.opam/default/lib/ounit2/oUnit.cma test/student/.student.eobjs/byte/dune__exe__Student.cmo)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/public/public.bc src/basics.cma /usr/local/lib/ocaml/unix.cma /Users/sohamdigambar/.opam/default/lib/stdlib-shims/stdlib_shims.cma /Users/sohamdigambar/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cma /Users/sohamdigambar/.opam/default/lib/ounit2/oUnit.cma test/public/.public.eobjs/byte/dune__exe__Public.cmo)
+$ (cd _build/default && /usr/local/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/property-based-test/pbt.bc src/basics.cma /usr/local/lib/ocaml/unix.cma /Users/sohamdigambar/.opam/default/lib/stdlib-shims/stdlib_shims.cma /Users/sohamdigambar/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cma /Users/sohamdigambar/.opam/default/lib/ounit2/oUnit.cma /Users/sohamdigambar/.opam/default/lib/qcheck-core/qcheck_core.cma /Users/sohamdigambar/.opam/default/lib/qcheck-core/runner/qcheck_runner.cma /Users/sohamdigambar/.opam/default/lib/qcheck-ounit/qcheck_ounit.cma /Users/sohamdigambar/.opam/default/lib/qcheck/qcheck.cma test/property-based-test/.pbt.eobjs/byte/dune__exe__Pbt.cmo)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/property-based-test/.pbt.eobjs/byte -I test/property-based-test/.pbt.eobjs/native -I /Users/sohamdigambar/.opam/default/lib/oUnit -I /Users/sohamdigambar/.opam/default/lib/ounit2 -I /Users/sohamdigambar/.opam/default/lib/ounit2/advanced -I /Users/sohamdigambar/.opam/default/lib/qcheck -I /Users/sohamdigambar/.opam/default/lib/qcheck-core -I /Users/sohamdigambar/.opam/default/lib/qcheck-core/runner -I /Users/sohamdigambar/.opam/default/lib/qcheck-ounit -I /Users/sohamdigambar/.opam/default/lib/seq -I /Users/sohamdigambar/.opam/default/lib/stdlib-shims -I src/.basics.objs/byte -I src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o test/property-based-test/.pbt.eobjs/native/dune__exe__Pbt.cmx -c -impl test/property-based-test/pbt.ml)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/public/.public.eobjs/byte -I test/public/.public.eobjs/native -I /Users/sohamdigambar/.opam/default/lib/oUnit -I /Users/sohamdigambar/.opam/default/lib/ounit2 -I /Users/sohamdigambar/.opam/default/lib/ounit2/advanced -I /Users/sohamdigambar/.opam/default/lib/seq -I /Users/sohamdigambar/.opam/default/lib/stdlib-shims -I src/.basics.objs/byte -I src/.basics.objs/native -intf-suffix .ml -no-alias-deps -opaque -o test/public/.public.eobjs/native/dune__exe__Public.cmx -c -impl test/public/public.ml)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -a -o src/basics.cmxa src/.basics.objs/native/basics.cmx)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39 -g -shared -linkall -I src -o src/basics.cmxs src/basics.cmxa)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -33 -g -o test/student/student.exe src/basics.cmxa /usr/local/lib/ocaml/unix.cmxa -I /usr/local/lib/ocaml -I /usr/local/lib/ocaml /Users/sohamdigambar/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /Users/sohamdigambar/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/sohamdigambar/.opam/default/lib/ounit2/oUnit.cmxa test/student/.student.eobjs/native/dune__exe__Student.cmx)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/public/public.exe src/basics.cmxa /usr/local/lib/ocaml/unix.cmxa -I /usr/local/lib/ocaml -I /usr/local/lib/ocaml /Users/sohamdigambar/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /Users/sohamdigambar/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/sohamdigambar/.opam/default/lib/ounit2/oUnit.cmxa test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default && /usr/local/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/property-based-test/pbt.exe src/basics.cmxa /usr/local/lib/ocaml/unix.cmxa -I /usr/local/lib/ocaml -I /usr/local/lib/ocaml /Users/sohamdigambar/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /Users/sohamdigambar/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/sohamdigambar/.opam/default/lib/ounit2/oUnit.cmxa /Users/sohamdigambar/.opam/default/lib/qcheck-core/qcheck_core.cmxa /Users/sohamdigambar/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /Users/sohamdigambar/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /Users/sohamdigambar/.opam/default/lib/qcheck/qcheck.cmxa test/property-based-test/.pbt.eobjs/native/dune__exe__Pbt.cmx)
